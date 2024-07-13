@@ -1,18 +1,13 @@
-/* Basic Reset */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-
-/* Body Style */
 body {
     font-family: 'Roboto', sans-serif;
     background: #f4f4f4;
     overflow-x: hidden;
 }
-
-/* Header Style */
 #header {
     background: linear-gradient(to right, #ff6600, #ff00d9);
     color: white;
@@ -30,8 +25,6 @@ body {
 #header p {
     font-size: 24px;
 }
-
-/* Navbar Style */
 #navbar {
     position: fixed;
     top: 0;
@@ -99,8 +92,6 @@ body {
     background-color: #222 !important;
     padding: 5px 20px !important;
 }
-
-/* Content Style */
 .content {
     padding-top: 200px;
     text-align: center;
@@ -137,7 +128,6 @@ section img {
     border-radius: 8px;
 }
 
-/* Specific Image Sizes for Each Section */
 #home img {
     max-width: 80%;
 }
@@ -196,8 +186,6 @@ section img {
 #footer .social-media a:hover {
     color: #00c6ff;
 }
-
-/* Smooth Scroll */
 html {
     scroll-behavior: smooth;
 }
